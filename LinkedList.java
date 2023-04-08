@@ -47,11 +47,13 @@ class LinkedList {
         }
     }
 
-    void PrintNode(){
+    void PrintNode() {
         Node cur = head;
-        while(cur.next != null){
-            System.out.println(cur.data);
+        while (cur.next != null) {
+            System.out.println("\t\t" + cur.data);
+            cur = cur.next;
         }
+        System.out.println("\t\t" + cur.data);
     }
 
     public static void main(String[] args) {
@@ -78,6 +80,8 @@ class LinkedList {
                     data = sc.nextInt();
                     l1.deleteWithValue(data);
                     break;
+                case 4:
+                    l1.PrintNode();
                 case 5:
                     System.exit(0);
                 default:
@@ -85,6 +89,6 @@ class LinkedList {
                     break;
             }
         } while (key != 5);
-            sc.close();
+        sc.close();
     }
 }
