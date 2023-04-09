@@ -1,2 +1,2 @@
-# javac LinkedList.java
-# java LinkedList
+## javac LinkedList.java
+## java LinkedList
