@@ -1,2 +1,5 @@
-## javac LinkedList.java
-## java LinkedList
+#### Compilation
+> `javac LinkedList.java`
+
+#### Execution
+> `java LinkedList`
